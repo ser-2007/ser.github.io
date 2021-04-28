@@ -1,196 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0">
+	<title>Serkan SAHAN  Portfolio Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
 
-        <style type="text/css">
-            
-            body { background-color: lime;
-
-
-            }
-
-            p { color: red;
-
-             }
-        </style>
-    </head>
-    <body>
-        
-        <!-- ordered list -->
-
-        <p> ITF Core Team</p>
-        <ol type="i">
-            
-            <li>michael</li>
-            <li>robert</li>
-            <li>bruce</li>
-            <li>sergio</li>
-        </ol>
-            
-        <p> Unordered list</p>
-        <ul>
-
-            <li>Zeki</li>
-            <li>Ramazan</li>
-            <li>Sefa</li>
-            <li>Vefa</li>
-            
-
-        </ul>
-
-        <p> Description list</p>
-            <dl>
-                <dt>Muchael</dt>
-                    <dd>-team leader</dd>
-                <dt> Ali</dt>
-                    <dd>-team worker</dd>
-                <dt>Bruce</dt>
-                    <dd>-team trainer</dd>
-
-         </p>
-
-         <!-- HTML Nested List -->
-    <p>List of Countries with thier capital</p>
-    <ol>
-        <li>Türkiye
-            <ul>
-                <li>Ankara</li>
-            </ul>
-        </li>
-        <li>Greece
-            <ul>
-                <li>Athens</li>
-            </ul>
-        </li>
-        <li>Bulgaria
-            <ul>
-                <li>Sofia</li>
-            </ul>
-        </li>
-        <li>RRomania
-            <ul>
-                <li>Bucharest</li>
-            </ul>
-        </li>
-        <li>Italy
-            <ul>
-                <li>Roma</li>
-            </ul>
-        </li>
-        <li>France
-            <ul>
-                <li>Paris</li>
-                    <dd>-Beautiful city</dd>
-            </ul>
-        </li>
-    </ol>
-
-    <!--table with border-->
-
-    <table border="5">
-        
-        <tr align="right">
-            <th>first name</th>
-            <th>last name</th>
-            <th>mission</th>
-        </tr>
-        <tr>    
-            <td>michael</td>
-            <td>adams</td>
-            <td>team leader</td>
-
-        </tr>
-
-        <tr>
-            <td>ali</td>
-            <td>veli</td>
-            <td>team worker</td>
-
-        </tr>
-    </table>
-
-    <!-- table with colspan-->
-    <hr>
-    <br>
-    <br>
-    <table border="3">
-        
-        <tr>
-            <th>name</th>
-            <th colspan="3">mobile no</th>
-        </tr>
-        <tr>
-            <td>sergio</td>
-            <td>144255252</td>
-            <td>77479999</td>
-            <td>55746849</td>
-
-        </tr>
-
-    </table>
-
-    <!-- Rowspanli tablo-->
-<br>
-<br>
-<hr>
-
-    <table border="3"> 
-        <tr>
-            <th>name</th>
-            <td>Sergio</td>
-        </tr>
-
-        <tr>
-            <th rowspan="3">mobileno</th>
-            <td>1122334445</td>
-
-        </tr>
-        <tr>
-            <td>22334455656</td>
-        </tr>
-        <tr>
-            <td>123445556</td>
-        </tr>
-
-    </table>
-<br>
-    <img src="https://media.istockphoto.com/photos/child-hands-formig-heart-shape-picture-id951945718?k=6&m=951945718&s=612x612&w=0&h=ih-N7RytxrTfhDyvyTQCA5q5xKoJToKSYgdsJ_mHrv0=" width="200" height="150" alt="manzara" >
-    <hr>
-    <img src="https://clarusway.com/wp-content/uploads/2021/03/design.jpg" width="250" height="200" border="4px" alt="clarusway">
-    <br>
-     <img src="C:\Users\serkan\Desktop\images\cat.png" width="250" height="200" border="4px" alt="cat">
-     <img src="C:\Users\serkan\Desktop\images\cat.png" width="250" height="200" border="4px" alt="cat">
-     <img src="C:\Users\serkan\Desktop\images\cat.png" width="250" height="200" border="4px" alt="cat">
-     <hr>
-     <a href="https://lms.clarusway.com/course/view.php?id=89" target="blank" target="blank"> claruswayITF</a>
-
-     <hr>
-
-     <a href="C:\Users\serkan\Desktop\Clarusway Course\dersnotlari\HTML.docx" target="blank">dersnotu</a>
-
-     <a href="https:www.clarusway.com" target="black"><img src="design.jpg" alt="claruswaywebpage" width="300" height="200"></a>
-
-     <!--buton yapacagiz, link to an email adress-->
-
-     <br>
-
-     <a href="mailto:sersah95@gmail.com">Send email to Serkan</a>
-
-
-     <br>
-     <br>
-     <br>
-
-     <!--Button as a link-->
-
-     <button onclick="document.location= 'https://lms.clarusway.com'">Clarusway LMS</button>
-
-     <!-- link titles -->
-     <br>
-     <br>
-
-     <a href="https://lms.clarusway.com" title="Go to Clarsuway LMS">Try Clarusway LMS for further e learning</a>
-
-    </body>
+<body>
+	<div id="header">
+		<div class="container">
+			<div id="branding">
+				<h1>Serkan <span id="spanColor">SAHAN</span></h1>	
+			</div>
+			<div id="nav">
+				<ul>
+					<li class="current"><a href="index.html">HOME</a></li>
+					<li><a href="about.html" target="_blank">ABOUT</a></li>
+					<li><a href="contact.html" target="_blank">CONTACT</a></li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+	<div id="main">
+		<div class="container">
+			<h1>
+				I'm a Web Designer
+			</h1>
+			<p>
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos rerum consectetur?
+			</p>
+			
+		</div>	
+	</div>
+</body>
 </html>

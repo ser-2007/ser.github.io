@@ -1,0 +1,84 @@
+/* * {
+  border: 1px solid black;
+}
+*/
+body {
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: rgb(196, 255, 204);
+  border-bottom: 5px solid black;
+}
+
+#header a {
+  color: black;
+  text-decoration: none;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header li {
+  display: inline;
+  padding: 0 20px;
+  font-family: "Audiowide", sans-serif;
+}
+#branding {
+  color: white;
+  font-family: "Audiowide", sans-serif;
+}
+
+#spanColor {
+  color: black
+}
+#main {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmUQ-7BIlpmw9JGepXc4PO2jgTGbMkQn_pnA&usqp=CAU");
+  background-size: cover;
+  text-align: center;
+  color:rgb(255, 186, 214) ;
+  height: 80vh;
+}
+
+#main h1 {
+  font-size: 60px;
+  margin: 200px 0 10px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#main p {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#about, #contact {
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmUQ-7BIlpmw9JGepXc4PO2jgTGbMkQn_pnA&usqp=CAU");
+  background-size: cover;
+  height: 80vh;
+  color: black;
+}
+#about h2, #contact h2 {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+  text-align: center;
+  color: green;
+}
+
+#about p, #contact p {
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+  padding: 0 10px;
+}
